@@ -1,6 +1,0 @@
-#!/bin/bash
-
-ascii_dir="$HOME/.config/unifetch/ascii"
-ascii_file=$(find "$ascii_dir" -type f | shuf -n 1)
-
-unifetch --ascii "$ascii_file"

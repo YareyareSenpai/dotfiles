@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Brave (Dynamic Scaling)
-Comment=Launch Brave with auto resolution scaling
-Exec=/home/kamquat/bin/brave-dynamic %U
-Icon=/home/kamquat/.local/share/applications/Dynamic Scalling Logos/icons8-brave-64.png
-Terminal=false
-Type=Application
-Categories=Network;WebBrowser;
-StartupWMClass=Brave-browser

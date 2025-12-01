@@ -1,49 +1,48 @@
-# Logs
-*.log
+# Ignore everything by default
+*
 
-# Cache and runtime state
-.cache/
-.var/
-.local/state/
+# Allow curated dotfiles and projects
+!.config/
+!.local/
+!.icons/
+!.themes/
+!bin/
+!HyDE/
+!Cyberpunk-GRUB-Theme/
+!spotify-mpd/
+!opera-ffmpeg-solver/
+!fix-opera-linux-ffmpeg-widevine/
+!Libnick/
+!yay/
+!zed-preview/
+!install-dotfiles.sh
+!install-dotfiles-overlay.sh
+!.gitignore
+!README.md
+!pkglists/
+!docs/
+
+# Whitelist curated subfolders inside .local/share
+!.local/share/
+!.local/share/mybash/
+!.local/share/themes/
+!.local/share/icons/
+!.local/share/fonts/
+
+# Ignore runtime junk and caches
+.config/zsh/.histfile
+.local/share/recently-used.xbel
+.config/*/cache/
 .local/share/Trash/
 .local/share/flatpak/
-.local/share/gvfs-metadata/
-.local/share/baloo/
-.local/share/folks/
-.local/share/gegl-0.4/
-.local/share/gstreamer-1.0/
-.local/share/icc/
-.local/share/kio/
-.local/share/kxmlgui5/
-.local/share/lollypop/
-.local/share/media-downloader/
-.local/share/waydroid/
-.local/share/yelp/
 .local/share/ice/
+.local/share/waydroid/
+.local/share/gvfs-metadata/
 
-# Browser and app state
-.mozilla/
-BraveSoftware/
-google-chrome/
-opera-developer/
+# Allow curated subfolders inside .local/share
+!.local/share/mybash/
 
-# Package manager/runtime blobs
-.cargo/
-.rustup/
-.npm/
-.java/
-go/
-
-# Secrets (never commit keys)
-.ssh/id_*
-.ssh/authorized_keys
-.gnupg/private-keys-v1.d/
-.gnupg/openpgp-revocs.d/
-
-# Git metadata
-.git/
-
-# Temporary files
-*~
-*.swp
-*.tmp
+# Allow curated projects
+!Cyberpunk-GRUB-Theme/
+!spotify-mpd/
+!zed-preview/
