@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+Comment=Web App
+Exec=brave --app="https://chatgpt.com/" --class=WebApp-ChatGPT1726 --name=WebApp-ChatGPT1726
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/Chatgpt logo.png
+Categories=GTK;Development;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-ChatGPT1726
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://chatgpt.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=false
+

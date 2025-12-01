@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Copilot
+Comment=Web App
+Exec=brave --app="https://copilot.microsoft.com" --class=WebApp-Copilot4578 --name=WebApp-Copilot4578 --user-data-dir=/home/kamquat/.local/share/ice/profiles/Copilot4578
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/Microsoft_Copilot_Icon.svg.png
+Categories=GTK;Development;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Copilot4578
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://copilot.microsoft.com
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

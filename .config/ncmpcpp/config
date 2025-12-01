@@ -1,0 +1,57 @@
+# ==============================
+# MPD Connection
+# ==============================
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "~/kamquat/Music/Music"
+
+# ==============================
+# Interface Layout
+# ==============================
+user_interface = "classic"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+titles_visibility = "yes"
+
+browser_display_mode = "columns"
+playlist_display_mode = "columns"
+search_engine_display_mode = "columns"
+
+# ==============================
+# Colors (modern NCMPCPP syntax)
+# ==============================
+# colors = normal:white, playing:green, paused:yellow, highlight:cyan, inactive:blue
+
+# ==============================
+# Playlist Columns
+# ==============================
+song_columns_list_format = "(7f)[green]{l} (25)[cyan]{a} (40)[white]{t} (30)[blue]{b}"
+
+# ==============================
+# Controls
+# ==============================
+mouse_support = "yes"
+# bind_pgup = "playlist_prev"
+# bind_pgdn = "playlist_next"
+
+# ==============================
+# Visualizer
+# ==============================
+# visualizer_scale = 0.5
+# visualizer_delay = 25
+# visualizer_output_name = "PulseAudio Output"
+
+# ==============================
+# Spotify Now Playing (via playerctl)
+# ==============================
+# You can run this in a separate terminal or floating window:
+#   playerctl --player=spotify metadata --format "{{artist}} - {{title}}"
+# Or create a script for convenience:
+# ~/.config/ncmpcpp/spotify_now.sh
+# -----------------------------------
+# #!/bin/bash
+# playerctl --player=spotify metadata --format "{{artist}} - {{title}}"
+# -----------------------------------
+# Make it executable:
+# chmod +x ~/.config/ncmpcpp/spotify_now.sh
+# Then you can call it from NCMPCPP using the execute keybinding (default: 'E')

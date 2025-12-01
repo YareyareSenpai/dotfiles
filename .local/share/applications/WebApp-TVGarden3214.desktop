@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=TV Garden
+Comment=Web App
+Exec=brave --app="https://tv.garden/" --class=WebApp-TVGarden3214 --name=WebApp-TVGarden3214 --user-data-dir=/home/kamquat/.local/share/ice/profiles/TVGarden3214
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/solar--tv-bold.svg
+Categories=GTK;AudioVideo;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-TVGarden3214
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://tv.garden/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Reddit
+Comment=Web App
+Exec=brave --app="https://www.reddit.com/" --class=WebApp-Reddit3244 --name=WebApp-Reddit3244 --user-data-dir=/home/kamquat/.local/share/ice/profiles/Reddit3244
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/foundation--social-reddit.svg
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Reddit3244
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://www.reddit.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

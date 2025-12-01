@@ -1,0 +1,23 @@
+[Desktop Entry]
+Version=1.0
+Name=Opera Developer (Dynamic Scaling)
+GenericName=Web Browser
+Comment=Launches Opera Developer with resolution-aware scaling
+Exec=/home/kamquat/bin/opera-developer-dynamic %U
+Terminal=false
+Icon=/home/kamquat/.local/share/applications/Dynamic Scalling Logos/Dynamic-Scalling.png
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;application/x-opera-download;
+StartupNotify=true
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=/home/kamquat/bin/opera-developer-dynamic --new-window
+TargetEnvironment=Unity
+
+[Desktop Action new-private-window]
+Name=New Private Window
+Exec=/home/kamquat/bin/opera-developer-dynamic --incognito
+TargetEnvironment=Unity

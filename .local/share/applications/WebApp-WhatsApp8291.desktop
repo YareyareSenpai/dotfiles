@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=WhatsApp
+Comment=Web App
+Exec=brave --app="https://web.whatsapp.com/" --class=WebApp-WhatsApp8291 --name=WebApp-WhatsApp8291 --user-data-dir=/home/kamquat/.local/share/ice/profiles/WhatsApp8291
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=web-whatsapp
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-WhatsApp8291
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://web.whatsapp.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
