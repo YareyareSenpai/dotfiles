@@ -6,8 +6,14 @@
 !.local/
 !home/
 !bin/
+!scripts/
+!bootstrap.sh
 !install-dotfiles.sh
 !install-dotfiles-overlay.sh
+!restore-overlay.sh
+!uninstall-dotfiles.sh
+!.bashrc
+!.zshrc
 !.gitignore
 !README.md
 
