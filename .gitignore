@@ -68,6 +68,7 @@
 
 # --- Whitelist scripts in .local/bin ---
 !.local/bin/
+!bin/
 
 # --- Whitelist home additions ---
 !home/.oh-my-zsh/
