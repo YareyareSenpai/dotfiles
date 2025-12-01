@@ -1,20 +1,12 @@
 # Ignore everything by default
 *
 
-# Allow curated dotfiles and projects
+# Allow curated dotfiles and scripts
 !.config/
 !.local/
 !.icons/
 !.themes/
 !bin/
-!HyDE/
-!Cyberpunk-GRUB-Theme/
-!spotify-mpd/
-!opera-ffmpeg-solver/
-!fix-opera-linux-ffmpeg-widevine/
-!Libnick/
-!yay/
-!zed-preview/
 !install-dotfiles.sh
 !install-dotfiles-overlay.sh
 !.gitignore
@@ -23,7 +15,6 @@
 !docs/
 
 # Whitelist curated subfolders inside .local/share
-!.local/share/
 !.local/share/mybash/
 !.local/share/themes/
 !.local/share/icons/
@@ -39,10 +30,11 @@
 .local/share/waydroid/
 .local/share/gvfs-metadata/
 
-# Allow curated subfolders inside .local/share
-!.local/share/mybash/
-
-# Allow curated projects
-!Cyberpunk-GRUB-Theme/
-!spotify-mpd/
-!zed-preview/
+# Exclude upstream repos (keep them separate, not vendored)
+Cyberpunk-GRUB-Theme/
+spotify-mpd/
+yay/
+zed-preview/
+Libnick/
+fix-opera-linux-ffmpeg-widevine/
+opera-ffmpeg-solver/
