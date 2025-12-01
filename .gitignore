@@ -107,3 +107,14 @@ spotify-mpd/
 zed-preview/
 opera-ffmpeg-solver/
 fix-opera-linux-ffmpeg-widevine/
+
+# Whitelist parent directories so children can be added
+!.config/
+!.local/
+!.local/share/
+!bin/
+!home/
+
+!.local/bin/
+!home/.oh-my-zsh/
+!.config/gtk-4.0/
