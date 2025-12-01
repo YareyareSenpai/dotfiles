@@ -21,6 +21,10 @@
 !*.conf
 !*.sh
 !*.keep
+!*.ttf
+!*.otf
+!*.woff
+!*.woff2
 
 # --- Whitelist curated subfolders inside .config ---
 !.config/hypr/
