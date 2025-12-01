@@ -26,22 +26,21 @@ migrate() {
     fi
 }
 
-### Core directories
-migrate ".config"
-migrate ".local/share"
-migrate ".icons"
-migrate ".themes"
-migrate "bin"
+### Curated ~/.config directories
+for dir in hypr waybar rofi kitty zsh starship dunst cava btop fastfetch unifetch scripts gtk-3.0 gtk-4.0 Kvantum mpd ncmpcpp mpv systemd; do
+    migrate ".config/$dir"
+done
 
-### Curated extras
-migrate "HyDE"
-migrate "Libnick"
-migrate "opera-ffmpeg-solver"
-migrate "fix-opera-linux-ffmpeg-widevine"
-migrate "spotify-mpd"
-migrate "Cyberpunk-GRUB-Theme"
-migrate "yay"
-migrate "zed-preview"
+### Curated ~/.local/share directories
+for dir in applications backgrounds easyeffects fastfetch fonts hyde hyprland icons mpd mybash nvim nwg-look rofi sddm sounds themes waybar; do
+    migrate ".local/share/$dir"
+done
+
+### User scripts (~/.local/bin)
+migrate ".local/bin"
+
+### Home-level additions
+migrate ".oh-my-zsh"
 
 ### Sensitive configs (only configs, not keys)
 mkdir -p "$REPO/.ssh" "$REPO/.gnupg"

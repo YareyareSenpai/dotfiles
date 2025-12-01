@@ -19,34 +19,21 @@ link() {
     fi
 }
 
-### Core HyDE
-link "HyDE" ".config/hyde"
-
-### System configs
-link "system/etc" ".etc"
-link "system/services" ".config/systemd/user"
-
-### User configs (~/.config)
-for dir in btop cava dunst fastfetch hypr kitty Kvantum mpd mpv ncmpcpp nwg-look rofi scripts starship systemd unifetch vim waybar wlogout xsettingsd yay zsh; do
-    link "user/.config/$dir" ".config/$dir"
+### Curated configs (~/.config)
+for dir in hypr waybar rofi kitty zsh starship dunst cava btop fastfetch unifetch scripts gtk-3.0 gtk-4.0 Kvantum mpd ncmpcpp mpv systemd; do
+    link ".config/$dir" ".config/$dir"
 done
 
-### User assets (~/.local/share)
-for dir in applications backgrounds easyeffects fastfetch fonts hyde hyprland icons mpd mybash nvim nwg-look rofi sddm sounds themes waybar zed; do
-    link "user/.local/share/$dir" ".local/share/$dir"
+### Curated assets (~/.local/share)
+for dir in applications backgrounds easyeffects fastfetch fonts hyde hyprland icons mpd mybash nvim nwg-look rofi sddm sounds themes waybar; do
+    link ".local/share/$dir" ".local/share/$dir"
 done
+
+### User scripts (~/.local/bin)
+link ".local/bin" ".local/bin"
 
 ### Home-level additions
-link ".icons" ".icons"
-link ".themes" ".themes"
-link "bin" "bin"
-link "Libnick" "Libnick"
-link "opera-ffmpeg-solver" "opera-ffmpeg-solver"
-link "fix-opera-linux-ffmpeg-widevine" "fix-opera-linux-ffmpeg-widevine"
-link "spotify-mpd" "spotify-mpd"
-link "Cyberpunk-GRUB-Theme" "Cyberpunk-GRUB-Theme"
-link "yay" "yay"
-link "zed-preview" "zed-preview"
+link "home/.oh-my-zsh" ".oh-my-zsh"
 
 ### Sensitive configs (only configs, not keys)
 link ".ssh/config" ".ssh/config"
