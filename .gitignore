@@ -1,11 +1,11 @@
 # Ignore everything by default
 *
 
-# Allow curated dotfiles structure
+# --- Top-level curated structure ---
 !.config/
 !.local/
-!home/
 !bin/
+!home/
 !scripts/
 !bootstrap.sh
 !install-dotfiles.sh
@@ -17,7 +17,12 @@
 !.gitignore
 !README.md
 
-# Whitelist curated subfolders inside .config
+# --- Allow common curated file types ---
+!*.conf
+!*.sh
+!*.keep
+
+# --- Whitelist curated subfolders inside .config ---
 !.config/hypr/
 !.config/waybar/
 !.config/rofi/
@@ -38,7 +43,7 @@
 !.config/mpv/
 !.config/systemd/
 
-# Whitelist curated subfolders inside .local/share
+# --- Whitelist curated subfolders inside .local/share ---
 !.local/share/applications/
 !.local/share/backgrounds/
 !.local/share/easyeffects/
@@ -57,13 +62,13 @@
 !.local/share/themes/
 !.local/share/waybar/
 
-# Whitelist scripts in .local/bin
+# --- Whitelist scripts in .local/bin ---
 !.local/bin/
 
-# Whitelist home additions
+# --- Whitelist home additions ---
 !home/.oh-my-zsh/
 
-# Ignore runtime junk and caches
+# --- Ignore runtime junk and caches ---
 .config/zsh/.zcompdump*
 .config/zsh/*.zwc
 .local/share/Trash/
@@ -73,7 +78,7 @@
 *.lock
 *.cache
 
-# Block vendored runtimes and heavy binaries
+# --- Block vendored runtimes and heavy binaries ---
 .local/share/zed/
 node_modules/
 venv/
@@ -89,7 +94,7 @@ venv/
 *.pkg
 *.dmg
 
-# Block old upstream projects
+# --- Block old upstream projects ---
 Libnick/
 yay/
 Cyberpunk-GRUB-Theme/
