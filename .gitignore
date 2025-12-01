@@ -4,6 +4,8 @@
 # --- Top-level curated structure ---
 !.config/
 !.local/
+!.local/share/
+!.local/bin/
 !bin/
 !home/
 !scripts/
@@ -17,10 +19,11 @@
 !.gitignore
 !README.md
 
-# --- Allow common curated file types ---
+# --- Allow curated file types ---
 !*.conf
 !*.sh
 !*.keep
+!*.md
 !*.ttf
 !*.otf
 !*.woff
@@ -66,55 +69,5 @@
 !.local/share/themes/
 !.local/share/waybar/
 
-# --- Whitelist scripts in .local/bin ---
-!.local/bin/
-!bin/
-
 # --- Whitelist home additions ---
 !home/.oh-my-zsh/
-
-# --- Ignore runtime junk and caches ---
-.config/zsh/.zcompdump*
-.config/zsh/*.zwc
-.local/share/Trash/
-.local/share/recently-used.xbel
-.config/*/cache/
-*.log
-*.lock
-*.cache
-
-# --- Block vendored runtimes and heavy binaries ---
-.local/share/zed/
-node_modules/
-venv/
-.env/
-*.AppImage
-*.iso
-*.tar
-*.zip
-*.gz
-*.xz
-*.deb
-*.rpm
-*.pkg
-*.dmg
-
-# --- Block old upstream projects ---
-Libnick/
-yay/
-Cyberpunk-GRUB-Theme/
-spotify-mpd/
-zed-preview/
-opera-ffmpeg-solver/
-fix-opera-linux-ffmpeg-widevine/
-
-# Whitelist parent directories so children can be added
-!.config/
-!.local/
-!.local/share/
-!bin/
-!home/
-
-!.local/bin/
-!home/.oh-my-zsh/
-!.config/gtk-4.0/
