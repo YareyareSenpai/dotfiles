@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Apple Music
+Comment=Web App
+Exec=brave --app="https://music.apple.com/za/new" --class=WebApp-AppleMusic9575 --name=WebApp-AppleMusic9575
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/Apple Music logo.png
+Categories=GTK;AudioVideo;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-AppleMusic9575
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://music.apple.com/za/new
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=false
+

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Football
+Comment=Web App
+Exec=brave --app="https://streameast.footybite.is/" --class=WebApp-Football4741 --name=WebApp-Football4741 --user-data-dir=/home/kamquat/.local/share/ice/profiles/Football4741
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/icons8-football-64.png
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Football4741
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://streameast.footybite.is/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

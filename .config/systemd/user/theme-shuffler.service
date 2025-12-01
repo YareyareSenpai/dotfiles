@@ -1,0 +1,9 @@
+[Unit]
+Description=Hyprland Theme Shuffler
+
+[Service]
+ExecStart=/home/yourusername/.local/bin/theme-shuffler.sh
+Restart=always
+
+[Install]
+WantedBy=default.target

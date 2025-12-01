@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Icloud
+Comment=Web App
+Exec=brave --app="https://www.icloud.com/" --class=WebApp-Icloud0869 --name=WebApp-Icloud0869 --user-data-dir=/home/kamquat/.local/share/ice/profiles/Icloud0869
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/kamquat/Downloads/icons8-icloud-48.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Icloud0869
+StartupNotify=true
+X-WebApp-Browser=Brave
+X-WebApp-URL=https://www.icloud.com/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

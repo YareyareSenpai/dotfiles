@@ -1,0 +1,49 @@
+# Logs
+*.log
+
+# Cache and runtime state
+.cache/
+.var/
+.local/state/
+.local/share/Trash/
+.local/share/flatpak/
+.local/share/gvfs-metadata/
+.local/share/baloo/
+.local/share/folks/
+.local/share/gegl-0.4/
+.local/share/gstreamer-1.0/
+.local/share/icc/
+.local/share/kio/
+.local/share/kxmlgui5/
+.local/share/lollypop/
+.local/share/media-downloader/
+.local/share/waydroid/
+.local/share/yelp/
+.local/share/ice/
+
+# Browser and app state
+.mozilla/
+BraveSoftware/
+google-chrome/
+opera-developer/
+
+# Package manager/runtime blobs
+.cargo/
+.rustup/
+.npm/
+.java/
+go/
+
+# Secrets (never commit keys)
+.ssh/id_*
+.ssh/authorized_keys
+.gnupg/private-keys-v1.d/
+.gnupg/openpgp-revocs.d/
+
+# Git metadata
+.git/
+
+# Temporary files
+*~
+*.swp
+*.tmp

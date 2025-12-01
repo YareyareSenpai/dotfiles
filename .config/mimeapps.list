@@ -1,0 +1,15 @@
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+text/html=opera-developer.desktop
+x-scheme-handler/http=opera-developer.desktop
+x-scheme-handler/https=opera-developer.desktop
+x-scheme-handler/about=opera-developer.desktop
+x-scheme-handler/unknown=opera-developer.desktop
+x-scheme-handler/mailto=userapp-Evolution-ZMXPD3.desktop
+image/png=org.nomacs.ImageLounge.desktop
+image/jpeg=org.gnome.eog.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Evolution-ZMXPD3.desktop;
+image/png=org.nomacs.ImageLounge.desktop;
+image/jpeg=org.gnome.eog.desktop;
